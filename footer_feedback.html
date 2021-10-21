@@ -1,0 +1,90 @@
+<html>
+    <form action="feedback.php" method="POST">
+        <table>
+      <tr>
+        <td>  Name:</td>
+        <td><input
+          class="vj-input vj-border"
+          type="text"
+          placeholder="Name"
+          name="Name"
+          required
+        /></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input
+          class="vj-input vj-border"
+          type="Email"
+          placeholder="Email"
+          name="Email"
+          required
+        /></td>
+      </tr>
+     <tr>
+        <td>Product:</td>
+        <td><select name="Items" required>
+          <option>Select item</option>
+          <option value="Beard oil">Beard oil</option>
+          <option value="Sunglasses">Sunglasses</option>
+          <option value="Shoes">Shoes</option>
+          <option value="socks">socks</option>
+          <option value="Beard Comb">Beard Comb</option>
+          <option value="Designer Jeans">Designer Jeans</option>
+          <option value="Designer shirt">Designer shirt</option>
+          <option value="Beard Trimmer">Beard Trimmer</option>
+        </select>
+      </td>
+      </tr>
+      <tr>
+        <td>Rating:</td>
+        <td><select name="Rating" required>
+          <option>Product Rating</option>
+          <option value="1">&#9733;</option>
+          <option value="2">&#9733;&#9733;</option>
+          <option value="3">&#9733;&#9733;&#9733;</option>
+          <option value="4">&#9733;&#9733;&#9733;&#9733;</option>
+          <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td>Subject:</td>
+        <td><input
+          class="vj-input vj-border"
+          type="text"
+          placeholder="Subject"
+          name="Subject"
+          required
+        /></td>
+      </tr>
+      <tr>
+       <td> Message:</td>
+        <td><textarea
+          class="vj-input vj-border"
+          type="text"
+          rows= "10"
+          cols= "30"
+          placeholder="Message"
+          name="Message"
+          required
+        ></textarea></td>
+      </tr>
+<tr>
+    <td>
+      <button type="submit" class="vj-button vj-Green vj-margin-bottom">
+        Submit
+      </button>
+    </td>
+    <td>
+      <button
+        type="button"
+        class="vj-button vj-red vj-center vj-margin-bottom"
+      >
+        <a href="#footer">Cancel</a>
+      </button>
+      <br />
+    </td>
+</tr>
+</table>
+    </form>
+    </html>
